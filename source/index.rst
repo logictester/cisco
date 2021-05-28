@@ -74,7 +74,15 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 1. In **Applications** tab, click on the :guilabel:`+` button and search for **Generic Template**
 
-.. thumbnail:: _images/applications.png 
+.. thumbnail:: _images/applications.png
+
+2. Name the application and choose **SAML** for the **Integration Protocol**
+
+.. thumbnail:: _images/application.png
+
+3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/asa_logo.png>`
+
+ 
 
 _`Configure STA Authentication Policy`
 **************************************
