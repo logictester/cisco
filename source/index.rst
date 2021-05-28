@@ -219,6 +219,16 @@ Configure SSL VPN Connection Profile
 
 .. thumbnail:: _images/asdm_profile_settings.png
 
+5. Expand :guilabel:`Advanced` and click on :guilabel:`Clientless SSL VPN`
+
+6. Make sure **Alias** is **Enabled**
+
+.. thumbnail:: _images/asdm_alias.png
+
+7. Click :guilabel:`OK`
+
+8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration 
+
 
 
 
