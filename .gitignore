@@ -1,3 +1,6 @@
 
 make.bat
 Makefile
+source/.DS_Store
+source/_downloads/.DS_Store
+source/_images/.DS_Store
