@@ -117,7 +117,7 @@ Cisco ASA Configuration
 Import STA Certificate into Cisco ASA
 *************************************
 
-1. Login to Cisco ASDM
+1. Login to **Cisco ASDM**
 
 2. Click on :guilabel:`Configuration`
 
@@ -137,7 +137,9 @@ Import STA Certificate into Cisco ASA
 
 .. thumbnail:: _images/asdm_add_cert.png
 
+6. Enter a **Trustpoint Name** for the STA certificate and browse to the certificate file that was downloaded in :ref:`in this step <Cert>`
 
+.. thumbnail:: _images/asdm_trustpoint.png
 
 
 _`Configure STA Authentication Policy`
