@@ -114,8 +114,8 @@ In the STA Console, add Cisco ASA application by following these steps:
 Cisco ASA Configuration
 =======================
 
-Import STA Certificate into Cisco ASA
-*************************************
+Certificates Configuration
+**************************
 
 1. Login to **Cisco ASDM**
 
@@ -152,6 +152,21 @@ Import STA Certificate into Cisco ASA
 9. Certificate is installed. Click :guilabel:`OK`
 
 .. thumbnail:: _images/asdm_cert_installed.png
+
+10. Import or create a new Cisco ASA Identity Certificate. Eneter a Trustpoint Name and select to import a PFX or generate a self-signed certificate
+
+.. thumbnail:: _images/asdm_idp_cert.png
+
+11. Click :guilabel:`Add Certificate`
+
+.. thumbnail:: _images/asdm_add_idp_cert.png
+
+12. Click :guilabel:`OK`
+
+.. thumbnail:: _images/asdm_enroll.png
+
+
+
 
 
 
