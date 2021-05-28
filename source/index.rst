@@ -108,7 +108,15 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 6. Click :guilabel:`Next Step`
 
-.. note:: For the next step, leave the STA Application configuration and login to Cisco ASA using ASDM to configure SAML settings that will generate the Metadata file to be imported into the STA Cisco ASA Application to complete the STA side setup
+.. note:: For the next step, leave the STA Application configuration and login to Cisco ASA using ASDM to configure SAML settings that will generate the Metadata file to be imported into the STA Cisco ASA Application to complete the STA Cisco ASA Application configuration
+
+1. Login to Cisco ASDM
+
+2. Click :guilabel:`Configuration`
+
+.. thumbnail:: _images/asdm_configuration.png
+
+
 
 
 _`Configure STA Authentication Policy`
