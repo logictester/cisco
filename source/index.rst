@@ -114,6 +114,8 @@ In the STA Console, add Cisco ASA application by following these steps:
 Cisco ASA Configuration
 =======================
 
+.. _ASA_Cert:
+
 Certificates Configuration
 **************************
 
@@ -129,7 +131,7 @@ Certificates Configuration
 
 4. Expand :guilabel:`Certificate Management`
 
-.. note:: The **CA Certificates** section is where the STA certificate will be imported to. The **Identity Certificates** section is where the Cisco ASA IDP certificate will be created
+.. note:: The **CA Certificates** section is where the STA certificate will be imported to. The **Identity Certificates** section is where the Cisco ASA SP certificate will be created
 
 .. thumbnail:: _images/asdm_certs.png
 
@@ -172,6 +174,31 @@ Configure Signle Signon Server
 
 .. thumbnail:: _images/asdm_sso.png
 
+2. Fill in the details based on the information collected in :ref:`this step <SAML>`
+
+.. important:: Do not paste **https://** from STA Logon links, use the drop down menues to select **https**, except for IDP Entity ID
+
++--------------------------------+---------------------------------------------------------------+
+| Cisco ASA SAML Setting         | Note                                                          |
++================================+===============================================================+
+| IDP Entity ID:                 | STA Issuer/Entity ID (including **https**)                    |
++--------------------------------+---------------------------------------------------------------+
+| Sign In URL:                   | STA Single Sign On Service URL                                |
++--------------------------------+---------------------------------------------------------------+
+| Sign Out URL:                  | **Leave empty**                                               |
++--------------------------------+---------------------------------------------------------------+
+| Base URL:                      | Cisco ASA URL                                                 |
++--------------------------------+---------------------------------------------------------------+
+| Identity Provider Certificate: | Select IDP Certificate created :ref:`in this step <ASA_Cert>` |
++--------------------------------+---------------------------------------------------------------+
+| Service Provider Certificate:  | Select SP Certificate created :ref:`in this step <ASA_Cert>`  |
++--------------------------------+---------------------------------------------------------------+
+| Request Signature:             | Select **rsa-sha256**                                         |
++--------------------------------+---------------------------------------------------------------+
+| Request Timeout:               | Type in value in seconds, e.g. 7200                           |
++--------------------------------+---------------------------------------------------------------+
+
+.. thumbnail:: _images/asdm_sso_settings.png
 
 
 
