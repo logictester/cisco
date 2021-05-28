@@ -82,7 +82,9 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/asa_logo.png>`
 
+.. thumbnail:: _images/add_icon.png
 
+.. thumbnail:: _images/icon.png
 
 
 
