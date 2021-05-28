@@ -80,7 +80,7 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 .. thumbnail:: _images/application.png
 
-3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/asa_logo.png>`
+3. *Optional* - Change the Application Logo by clicking on the default icon. You can download FortiGate logo icon :download:`here <_downloads/asa-logo.png>`
 
 .. thumbnail:: _images/add_icon.png
 
@@ -127,7 +127,7 @@ Import STA Certificate into Cisco ASA
 
 .. thumbnail:: _images/asdm_vpn.png
 
-
+4. Expand :guilabel:`Certificate Management`
 
 
 
