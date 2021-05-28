@@ -153,7 +153,7 @@ Certificates Configuration
 
 .. thumbnail:: _images/asdm_cert_installed.png
 
-10. Import or create a new Cisco ASA Identity Certificate. Eneter a Trustpoint Name and select to import a PFX or generate a self-signed certificate
+10. Import or create a new Cisco ASA Identity Certificate. Eneter a **Trustpoint Name** and select to import a PFX or generate a self-signed certificate
 
 .. thumbnail:: _images/asdm_idp_cert.png
 
@@ -164,6 +164,14 @@ Certificates Configuration
 12. Click :guilabel:`OK`
 
 .. thumbnail:: _images/asdm_enroll.png
+
+Configure Signle Signon Server
+******************************
+
+1. Navigate to :guilabel:`Clientless SSL VPN Access` -> :guilabel:`Advanced` -> :guilabel:`Single Signon Servers` and click on :guilabel:`Add`
+
+.. thumbnail:: _images/asdm_sso.png
+
 
 
 
