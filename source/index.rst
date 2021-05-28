@@ -86,6 +86,20 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 .. thumbnail:: _images/icon.png
 
+  - Browse for or drag the logo icon downloaded above and click :guilabel:`Select`
+
+4. Clcik :guilabel:`Add` to add the Cisco ASA Application
+
+5. Switch to **Manual Configuration**
+
+.. thumbnail:: _images/manual.png
+
+.. _Cert:
+
+- Download STA Tenant Certificate by clicking :guilabel:`Download X.509 certificate`
+
+.. thumbnail:: _images/certificate.png
+
 
 
 _`Configure STA Authentication Policy`
