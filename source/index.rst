@@ -200,6 +200,25 @@ Configure Signle Signon Server
 
 .. thumbnail:: _images/asdm_sso_settings.png
 
+3. Click :guilabel:`OK`
+
+Configure SSL VPN Connection Profile
+************************************
+
+1. Navigate to :guilabel:`Clientless SSL VPN Access` -> :guilabel:`Connection Profiles` and click on :guilabel:`Add`
+
+.. thumbnail:: _images/asdm_profile.png
+
+2. Enter **Name** and **Alias**
+
+.. note:: Alias is used to allow users to select the **Connection Profile** during connection
+
+3. Select **SAML** Authentication Method
+
+4. Select the **SAML Server** created in the previous step as the **SAML Identity Provider**
+
+.. thumbnail:: _images/asdm_profile_settings.png
+
 
 
 
