@@ -3,9 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-========================================================================
-FortiGate VPN and FortiClient with SafeNet Trusted Access using SAML 2.0
-========================================================================
+========================================================================================
+Cisco ASA SSL VPN and Cisco AnyConnect Client with SafeNet Trusted Access using SAML 2.0
+========================================================================================
 
 .. toctree::
    :maxdepth: 3
@@ -17,14 +17,14 @@ FortiGate VPN and FortiClient with SafeNet Trusted Access using SAML 2.0
 Overview
 ========
 
-This guide shows how to implement adaptive authentication with strong contextual security policies to FortiGate SSL VPN and the FortiClient using SAML federation with SafeNet Trusted Access
+This guide shows how to implement adaptive authentication with strong contextual security policies to Cisco ASA SSL VPN and Cisco AnyConnect Client using SAML federation with SafeNet Trusted Access
 
 
 Prerequisites
 =============
 
-  - FortiOS 6.4.4.1803 and above
-  - FortiClient 6.4.2.1580 and above
+  - Cisco ASA 9.7.1.24 and above
+  - Cisco AnyConnect 4.6 and above
   - A user with a SafeNet Trusted Access authenticator enrolled
   - Users can authenticate using SafeNet Trusted Access
 
@@ -35,19 +35,19 @@ The configuration requires the following steps:
 
   **In SafeNet Trusted Access**
 
-  - `Create FortiGate Application in SafeNet Trusted Access`_
+  - `Create Cisco ASA Application in SafeNet Trusted Access`_
   - `Configure STA Authentication Policy`_
 
-  **In FortGate**
+  **In Cisco ASA**
 
-  - `Add a SAML Identity Provider to FortiGate`_
-  - `FortiClient VPN Configuration`_
+  - `Add a SAML Identity Provider to Cisco ASA`_
+  - `Cisco AnyConnect VPN Configuration`_
 
 
 SafeNet Trusted Access Configuration
 ====================================
 
-_`Create FortiGate Application in SafeNet Trusted Access`
+_`Create Cisco ASA Application in SafeNet Trusted Access`
 *********************************************************
 
 .. note:: Open SafeNet Trusted Access Console (you can use the following direct links based on your availability zone, opens in a new tab)
@@ -70,8 +70,11 @@ _`Create FortiGate Application in SafeNet Trusted Access`
 
               <a href="https://sta.safenetid.com" target="_blank">Classic Zone SafeNet Trusted Access Console</a>
 
-In the STA Console, add FortiGate application by following these steps:
+In the STA Console, add Cisco ASA application by following these steps:
 
+1. In **Applications** tab, click on the :guilabel:`+` button and search for **Generic Template**
+
+.. thumbnail:: _images/applications.png 
 
 _`Configure STA Authentication Policy`
 **************************************
