@@ -227,9 +227,18 @@ Configure SSL VPN Connection Profile
 
 7. Click :guilabel:`OK`
 
-8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration 
+8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration
 
+Download the Cisco ASA SAML Metadata
+************************************
 
+1. In a browser, navigate to **https://fqdn of cisco asa/saml/sp/metadata/<connection profile name>**
+
+Example of metadata:
+
+.. thumbnail:: _images/asdm_meta.png
+
+2. Save the metadata from the browser as **file.xml**
 
 
 
