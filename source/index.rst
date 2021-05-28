@@ -96,7 +96,7 @@ In the STA Console, add Cisco ASA application by following these steps:
 
 .. _Cert:
 
-- Download STA Tenant Certificate by clicking :guilabel:`Download X.509 certificate`
+- Download STA Tenant Certificate by clicking :guilabel:`Download`
 
 .. thumbnail:: _images/certificate.png
 
@@ -140,6 +140,19 @@ Import STA Certificate into Cisco ASA
 6. Enter a **Trustpoint Name** for the STA certificate and browse to the certificate file that was downloaded in :ref:`in this step <Cert>`
 
 .. thumbnail:: _images/asdm_trustpoint.png
+
+7. Select the file and click :guilabel:`Install`
+
+.. thumbnail:: _images/asdm_install_cert.png
+
+8. Click :guilabel:`Install Certificate`
+
+.. thumbnail:: _images/asdm_click_install.png
+
+9. Certificate is installed. Click :guilabel:`OK`
+
+.. thumbnail:: _images/asdm_cert_installed.png
+
 
 
 _`Configure STA Authentication Policy`
