@@ -114,11 +114,19 @@ In the STA Console, add Cisco ASA application by following these steps:
 Cisco ASA Configuration
 =======================
 
+Import STA Certificate into Cisco ASA
+*************************************
+
 1. Login to Cisco ASDM
 
-2. Click :guilabel:`Configuration`
+2. Click on :guilabel:`Configuration`
 
 .. thumbnail:: _images/asdm_configuration.png
+
+3. Click on :guilabel:`Remote Access VPN`
+
+.. thumbnail:: _images/asdm_vpn.png
+
 
 
 
