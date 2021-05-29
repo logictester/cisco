@@ -257,6 +257,15 @@ Continue STA Cisco ASA Application Configuration
 
 .. thumbnail:: _images/meta_upload.png
 
+The metadta is uploaded and all the required configurations are automatically set
+
+.. thumbnail:: _images/meta_settings.png
+
+4. Click :guilabel:`Save Configuration`
+
+.. image:: _images/save_config.png
+
+
 
 
 
