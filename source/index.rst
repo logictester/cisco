@@ -127,13 +127,13 @@ Certificates Configuration
 
 3. Click on :guilabel:`Remote Access VPN`
 
-.. thumbnail:: _images/asdm_vpn.png
+.. image:: _images/asdm_vpn.png
 
 4. Expand :guilabel:`Certificate Management`
 
 .. note:: The **CA Certificates** section is where the STA certificate will be imported to. The **Identity Certificates** section is where the Cisco ASA SP certificate will be created
 
-.. thumbnail:: _images/asdm_certs.png
+.. image:: _images/asdm_certs.png
 
 5. Click on :guilabel:`CA Certificates` and click on :guilabel:`Add`
 
@@ -165,7 +165,7 @@ Certificates Configuration
 
 12. Click :guilabel:`OK`
 
-.. thumbnail:: _images/asdm_enroll.png
+.. image:: _images/asdm_enroll.png
 
 Configure Signle Signon Server
 ******************************
