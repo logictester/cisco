@@ -261,15 +261,20 @@ The metadta is uploaded and all the required configurations are automatically se
 
 .. thumbnail:: _images/meta_settings.png
 
-4. Click :guilabel:`Save Configuration`
+4. Under **User Login ID Mapping**, select **SAS User ID**
+
+.. thumbnail:: _images/nameid.png
+
+5. Click :guilabel:`Save Configuration`
 
 .. image:: _images/save_config.png
 
-5. Assign the Cisco ASA application to your target users by clicking on :guilabel:`Assign` and selecting **All Users** or **Users from any of these user groups:**
+6. Assign the Cisco ASA application to your target users by clicking on :guilabel:`Assign` and selecting **All Users** or **Users from any of these user groups:**
 
 .. thumbnail:: _images/assign.png
 
-6. Click :guilabel:`Save Configuration`
+7. Click :guilabel:`Save Configuration`
+
 
 _`Configure STA Authentication Policy`
 **************************************
