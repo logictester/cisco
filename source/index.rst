@@ -288,7 +288,7 @@ In the STA Console, create a new Access Policy for FortiGate application by foll
 
     #. Under **Users**, click :guilabel:`All Users` to apply to all users or :guilabel:`Any of these User Groups:` to apply to specifc User Groups
 
-    #. Under **Applications**, click :guilabel:`Any of these Applications`, click in the field and select **FortiGate** application
+    #. Under **Applications**, click :guilabel:`Any of these Applications`, click in the field and select **Cisco ASA** application
 
   - **Default Requirements**
 
@@ -296,8 +296,9 @@ In the STA Console, create a new Access Policy for FortiGate application by foll
 
   4. Click :guilabel:`Save` to save the new Policy
 
+.. thumbnail:: _images/policy.png
 
-The SafeNet Trusted Access configuration of the FortiGate application is complete
+The SafeNet Trusted Access configuration of the Cisco ASA application is complete
 
 FortiGate Configuration
 =======================
