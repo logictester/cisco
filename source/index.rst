@@ -40,8 +40,10 @@ The configuration requires the following steps:
 
   **In Cisco ASA**
 
-  - `Add a SAML Identity Provider to Cisco ASA`_
-  - `Cisco AnyConnect VPN Configuration`_
+  - `Certificates Configuration`_
+  - `Configure Single Signon Server`_
+  - `Configure SSL VPN Connection Profile`_
+  - `Configure AnyConnect VPN Connection Profile`_
 
 
 SafeNet Trusted Access Configuration
@@ -116,8 +118,8 @@ Cisco ASA Configuration
 
 .. _ASA_Cert:
 
-Certificates Configuration
-**************************
+_`Certificates Configuration`
+*****************************
 
 1. Login to **Cisco ASDM**
 
@@ -167,8 +169,8 @@ Certificates Configuration
 
 .. image:: _images/asdm_enroll.png
 
-Configure Signle Signon Server
-******************************
+_`Configure Signle Signon Server`
+*********************************
 
 1. Navigate to :guilabel:`Clientless SSL VPN Access` -> :guilabel:`Advanced` -> :guilabel:`Single Signon Servers` and click on :guilabel:`Add`
 
@@ -202,8 +204,8 @@ Configure Signle Signon Server
 
 3. Click :guilabel:`OK`
 
-Configure SSL VPN Connection Profile
-************************************
+_`Configure SSL VPN Connection Profile`
+***************************************
 
 1. Navigate to :guilabel:`Clientless SSL VPN Access` -> :guilabel:`Connection Profiles` and click on :guilabel:`Add`
 
@@ -229,8 +231,8 @@ Configure SSL VPN Connection Profile
 
 8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration
 
-Configure AnyConnect VPN Connection Profile
-*******************************************
+_`Configure AnyConnect VPN Connection Profile`
+**********************************************
 
 .. important:: To be able to configure AnyConnect VPN settings, AnyConnect Client image has to be uploaded to Cisco ASA, the image can be downloaded from Cisco support site. The download requires a valid Cisco support contract.
 
@@ -273,7 +275,7 @@ Example of metadata:
 
 2. Save the metadata from the browser as **file.xml**
 
-Continue STA Cisco ASA Application Configuration
+Complete STA Cisco ASA Application Configuration
 ================================================
 
 1. Return to the STA Cisco ASA Application Configuration
