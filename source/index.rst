@@ -343,12 +343,28 @@ Using Cisco ASA SSL VPN Portal
 
 2. Click :guilabel:`Login`
 
-3. Authenticate in the STA, using credentials based on the STA Authentication Policy
+3. Authenticate in STA, using all required credentials, based on the STA Authentication Policy
 
 .. image:: _images/asa_sslvpn.gif
 
-
-
-
 Using SafeNet Trusted Access User Portal
 ****************************************
+
+1. Navigate and login to the **SafeNet Trusted Access User Portal**
+
+2. Click on the **Cisco ASA** Application
+
+3. You are redirected and logged in to the Cisco ASA SSL VPN Web Portal
+
+.. image:: _images/asa_userportal.gif
+
+Using Cisco AnyConnect VPN Client
+*********************************
+
+1. Launch the **Cisco AnyConnect** Client on the client machine
+
+2. Type in the Cisco ASA VPN URL and click :guilabel:`Connect` to initiate the connection
+
+3. Authenticate in STA, using all required credentials, based on the STA Authentication Policy
+
+.. image:: _images/asa_anyconnect.gif
