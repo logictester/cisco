@@ -229,6 +229,35 @@ Configure SSL VPN Connection Profile
 
 8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration
 
+Configure AnyConnect VPN Connection Profile
+*******************************************
+
+.. important:: To be able to configure AnyConnect VPN settings, AnyConnect Client image has to be uploaded to Cisco ASA, the image can be downloaded from Cisco support site. The download requires a valid Cisco support contract.
+
+1. Navigate to :guilabel:`Network (Client) Access` -> :guilabel:`AnyConnect Connection Profiles` and click on :guilabel:`Add`
+
+.. thumbnail:: _images/anyconnect_profiles.png
+
+2. Enter **Name** and **Alias**
+
+.. note:: Alias is used to allow users to select the **Connection Profile** during connection
+
+3. Select **SAML** Authentication Method
+
+4. Select the **SAML Server** created in the previous step as the **SAML Identity Provider**
+
+.. thumbnail:: _images/anyconnect_profile_basic.png
+
+5. Expand :guilabel:`Advanced` and click on :guilabel:`Group Alias/Group URL`
+
+6. Make sure **Alias** is **Enabled**
+
+.. thumbnail:: _images/anyconnect_profile_advanced.png
+
+7. Click :guilabel:`OK`
+
+8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration
+
 .. note:: Configure any additional VPN settings such as IP Assignment, DNS, Split Tunnel, Published Applications etc. as required
 
 .. _Meta:
