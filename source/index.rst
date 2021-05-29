@@ -303,12 +303,18 @@ In the STA Console, create a new Access Policy for FortiGate application by foll
 
 The SafeNet Trusted Access configuration of the Cisco ASA application is complete
 
-FortiGate Configuration
-=======================
 
+Test the solution
+=================
 
-Using FortiClient
-*****************
+Using Cisco ASA SSL VPN Portal
+******************************
+
+1. Navigate to the **Cisco ASA SSL VPN** URL
+
+2. In the **Remote Access** pane, select the VPN connection created in the previous step
+
+3. Click on :guilabel:`SAML Login` to initiate the connection
 
 
 
