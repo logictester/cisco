@@ -41,7 +41,7 @@ The configuration requires the following steps:
   **In Cisco ASA**
 
   - `Certificates Configuration`_
-  - `Configure Signle Singon Server`_
+  - `Configure Signle Signon Server`_
   - `Configure SSL VPN Connection Profile`_
   - `Configure AnyConnect VPN Connection Profile`_
 
