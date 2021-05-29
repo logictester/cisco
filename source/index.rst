@@ -153,7 +153,7 @@ Certificates Configuration
 
 9. Certificate is installed. Click :guilabel:`OK`
 
-.. thumbnail:: _images/asdm_cert_installed.png
+.. image:: _images/asdm_cert_installed.png
 
 10. Import or create a new Cisco ASA Identity Certificate. Eneter a **Trustpoint Name** and select to import a PFX or generate a self-signed certificate
 
