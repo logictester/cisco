@@ -229,7 +229,7 @@ Configure SSL VPN Connection Profile
 
 8. Click :guilabel:`Apply` and :guilabel:`Save` to save the configuration
 
-.. important:: Configure any additional VPN settings such asIP Assignment, DNS, Split Tunnel, Published Applications etc. as required
+.. note:: Configure any additional VPN settings such as IP Assignment, DNS, Split Tunnel, Published Applications etc. as required
 
 .. _Meta:
 
