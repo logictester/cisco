@@ -271,8 +271,6 @@ The metadta is uploaded and all the required configurations are automatically se
 
 6. Click :guilabel:`Save Configuration`
 
-.. image:: _images/save_config.png
-
 _`Configure STA Authentication Policy`
 **************************************
 
