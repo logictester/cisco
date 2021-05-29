@@ -231,17 +231,31 @@ Configure SSL VPN Connection Profile
 
 .. important:: Configure any additional VPN settings such asIP Assignment, DNS, Split Tunnel, Published Applications etc. as required
 
+.. _Meta:
 
 Download the Cisco ASA SAML Metadata
 ************************************
 
-1. In a browser, navigate to **https://fqdn of cisco asa/saml/sp/metadata/<connection profile name>**
+1. In a browser, navigate to **https://<fqdn-asa>/saml/sp/metadata/<connection profile name>**
 
 Example of metadata:
 
 .. thumbnail:: _images/asdm_meta.png
 
 2. Save the metadata from the browser as **file.xml**
+
+Continue STA Cisco ASA Application Configuration
+================================================
+
+1. Return to the STA Cisco ASA Application Configuration
+
+2. Click :guilabel:`Upload Generic Template Metadata`
+
+.. thumbnail:: _images/upload_meta.png
+
+3. Click :guilabel:`Browse` and browse to the **metadata** file downloaded :ref:`here <Meta>`
+
+.. thumbnail:: _images/meta_upload.png
 
 
 
