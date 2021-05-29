@@ -341,9 +341,12 @@ Using Cisco ASA SSL VPN Portal
 
 1. Navigate to the **Cisco ASA SSL VPN** URL
 
-2. In the **Remote Access** pane, select the VPN connection created in the previous step
+2. Click :guilabel:`Login`
 
-3. Click on :guilabel:`SAML Login` to initiate the connection
+3. Authenticate in the STA, using credentials based on the STA Authentication Policy
+
+.. image:: _images/asa_sslvpn.gif
+
 
 
 
