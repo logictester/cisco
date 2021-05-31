@@ -41,7 +41,7 @@ The configuration requires the following steps:
   **In Cisco ASA**
 
   - `Certificates Configuration`_
-  - `Configure Signle Signon Server`_
+  - `Configure Single Signon Server`_
   - `Configure SSL VPN Connection Profile`_
   - `Configure AnyConnect VPN Connection Profile`_
 
@@ -157,7 +157,7 @@ _`Certificates Configuration`
 
 .. image:: _images/asdm_cert_installed.png
 
-10. Import or create a new Cisco ASA Identity Certificate. Eneter a **Trustpoint Name** and select to import a PFX or generate a self-signed certificate
+10. Import or create a new Cisco ASA Identity Certificate. Enter a **Trustpoint Name** and select to import a PFX or generate a self-signed certificate
 
 .. thumbnail:: _images/asdm_idp_cert.png
 
@@ -169,7 +169,7 @@ _`Certificates Configuration`
 
 .. image:: _images/asdm_enroll.png
 
-_`Configure Signle Signon Server`
+_`Configure Single Signon Server`
 *********************************
 
 1. Navigate to :guilabel:`Clientless SSL VPN Access` -> :guilabel:`Advanced` -> :guilabel:`Single Signon Servers` and click on :guilabel:`Add`
